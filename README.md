@@ -8,6 +8,6 @@ npm install
 
 npm start
 
-POST  <strong> http://localhost:3000/addData </strong>
-      x-www-form-urlencoded
-BODY  --&gt  name: &lt isim &gt
+POST  <strong> http://localhost:3000/addData </strong>  
+      x-www-form-urlencoded  
+BODY  -->  name: < isim >  
