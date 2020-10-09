@@ -17,7 +17,7 @@ const put = ({ name, age, count, createdDate }, callback) => {
             if (err) { throw err; }
             let { insertId } = result;                       // Veritabanında tutulduğu id
             console.log("DB  Connected!", insertId);
-            callback();                                      // Kullanıcıya döndürülür.
+            callback();                                      // Veri kullanıcıya döndürülür.
 
             //getData(insertId);                             // Eğer veritabanından çekilip döndürülecekse
         });
