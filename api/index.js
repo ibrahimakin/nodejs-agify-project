@@ -17,7 +17,7 @@ const apiRequest = (name, callback) => {
 
             console.log("API Connected!");
 
-            callback(result);
+            callback(result);                   // DB'e yazılmak üzere döndürülür
         });
 
     })).on("error", (err) => {
